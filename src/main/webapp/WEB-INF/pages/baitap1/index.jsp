@@ -22,7 +22,7 @@
 			<input type="submit" value="In Câu Chào" />
 		</form>
 
-		<c:if test="${name ne null}">
+		<c:if test="${not empty name}">
 			<p>
 				Câu chào: <strong>Chào bạn ${name}</strong>
 			</p>
