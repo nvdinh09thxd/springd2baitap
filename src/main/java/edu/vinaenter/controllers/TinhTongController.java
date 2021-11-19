@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class TinhTongController {
 
 	@GetMapping("bt2")
-	public String inputNumber(Model model) {
+	public String inputNumber() {
 		return "baitap2/index";
 	}
 

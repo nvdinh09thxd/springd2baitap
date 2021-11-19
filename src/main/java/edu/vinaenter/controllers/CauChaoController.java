@@ -13,7 +13,7 @@ public class CauChaoController {
 	private static final String MSG_ERR = "Please enter your name!";
 
 	@GetMapping("bt1")
-	public String inputName(Model model) {
+	public String inputName() {
 		return "baitap1/index";
 	}
 
